@@ -21,3 +21,5 @@ To run:
 - `npm install`
 
 - `npm start`
+
+The app will be started in the mentioned port which will be printed on the console upon starting the server. like: `http://localhost:8080`
