@@ -31,6 +31,10 @@ module.exports = server => {
 
         });
 
+        socket.on('new msg', (msg) => {
+            socket.broadcast.to(room).emit('new message for all', msg);
+        });
+
         // users.push(socket.id);
 
         // socket.emit("client event");

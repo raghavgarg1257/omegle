@@ -1,4 +1,4 @@
-# Omegle
+# Omegle (clone)
 
 Project in progress.!!
 
