@@ -10,10 +10,10 @@ Using ES6, with Babel(http://babeljs.io/).
 
 To run:
 
-1. $ `git clone git@github.com:raghavgarg1257/omegle.git` (ssh prefrable)
+1. `git clone git@github.com:raghavgarg1257/omegle.git`
 
-2. $ `cd omegle`
+2. `cd omegle`
 
-3. $ `npm install`
+3. `npm install`
 
-4. $ `npm start`
+4. `npm start`
