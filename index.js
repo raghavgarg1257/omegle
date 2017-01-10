@@ -8,6 +8,7 @@ import socketCon from "./app/socket.js";
 // import socketIO from "socket.io";
 // import socketEvent from "./app/socket.js";
 
+
 // injecting environment variables
 dotenv.config();
 
@@ -22,10 +23,12 @@ const server = app.listen(port, function() {
     console.log('app started at ' + port);
 });
 
+
 // socket connection
 let io = socketCon(server);
 // let io = socketIO(server);
 // io.on('connection', socketEvent);
+
 
 // set static files (css and images, etc) location
 app.use(express.static(__dirname + '/public'));

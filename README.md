@@ -10,10 +10,14 @@ Using ES6, with Babel(http://babeljs.io/).
 
 To run:
 
-1. `git clone git@github.com:raghavgarg1257/omegle.git`
+- `git clone git@github.com:raghavgarg1257/omegle.git`
 
-2. `cd omegle`
+- `cd omegle`
 
-3. `npm install`
+- `touch .env` 
 
-4. `npm start`
+- `nano .env` and mention port number like: `PORT=8080` (optional step)
+
+- `npm install`
+
+- `npm start`
