@@ -2,11 +2,11 @@
 
 Project in progress.!!
 
-Using ES6, with Babel(http://babeljs.io/).
+Using ES6, with Babel ( babeljs.io )
 
 ###Pre-requisites:
-1. Node (https://nodejs.org/en/)
-2. Globally installed nodemon (https://nodemon.io/)
+1. Node (nodejs.org )
+2. Globally installed nodemon ( nodemon.io )
 
 ###To run:
 ```
