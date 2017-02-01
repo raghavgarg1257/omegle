@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js --exec babel-node index.js --presets env",
+    "start": "nodemon --inspect index.js --exec babel-node index.js --presets env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
