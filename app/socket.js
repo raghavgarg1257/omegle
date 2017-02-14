@@ -24,7 +24,7 @@ module.exports = server => {
 
             if (!!io.sockets.adapter.rooms[room] && io.sockets.adapter.rooms[room].length > 1) {
                 setTimeout(() => {
-                    io.sockets.to(room).emit("room is full");
+                    io.to(room).emit("room is full");
                 }, 500);
                 room_no++;
             }
